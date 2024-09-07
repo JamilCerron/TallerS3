@@ -10,7 +10,7 @@ namespace Taller06._09._24
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola");
+            Console.WriteLine("HolaMundo");
         }
     }
 }
