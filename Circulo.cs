@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace Taller06._09._24
 {
-    internal class Program
+    internal class Circulo
     {
-        static void Main(string[] args)
+        private float r;
+
+        public Circulo(float r)
         {
-            Menu menu = new Menu();
-            menu.EjecutarPrograma();
+            this.r = r;
         }
+
+        public float CalcularArea() => r * r;
     }
 }
